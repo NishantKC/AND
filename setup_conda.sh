@@ -9,7 +9,7 @@ CONDA_URL="https://repo.anaconda.com/miniconda/$CONDA_INSTALLER"
 INSTALL_DIR="$HOME/miniconda3"
 ENV_NAME="myenv"
 PYTHON_VERSION="3.9"
-PACKAGES="numpy pandas matplotlib"
+PACKAGES="numpy pandas matplotlib scikit-learn scipy seaborn jupyterlab tensorflow pytorch opencv cython flask django sqlalchemy requests beautifulsoup4 nltk spacy pillow scikit-image networkx"
 
 # Function to check if a command exists
 command_exists() {
